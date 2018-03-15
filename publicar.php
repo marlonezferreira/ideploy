@@ -12,7 +12,7 @@ $iterator = new RecursiveDirectoryIterator($_REQUEST['raiz_projeto']);
 $recursiveIterator = new RecursiveIteratorIterator($iterator);
 
 
-//$dataModificacao = date ("F d Y H:i:s.", filemtime($filename));
+//$dataModificacao = date ("F d Y H:i:s.", filemtime($filename))
 ?>
 <html>
 <head><title>Publicador</title></head>
